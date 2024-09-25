@@ -5,4 +5,4 @@ workers_dev = true
 
 [build]
 upload.format = "service-worker"
-upload.dir = "./backend"
+upload.dir = "./backend/src"
