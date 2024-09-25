@@ -1,0 +1,4 @@
+name = "spino-cup"
+type = "javascript" # または "typescript"
+account_id = "your_account_id"
+workers_dev = true
