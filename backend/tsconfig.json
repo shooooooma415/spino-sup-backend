@@ -3,8 +3,6 @@
     "target": "ESNext",
     "module": "ESNext",
     "moduleResolution": "Bundler",
-    "outDir": "./dist",  // ビルド後の出力先
-    "rootDir": "./src",  // ソースファイルの場所
     "strict": true,
     "skipLibCheck": true,
     "types": ["node"],
