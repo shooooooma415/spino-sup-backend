@@ -1,6 +1,6 @@
 name = "shoma"
+type = "typescript"
 account_id = "d634310c8015dd346a7192aa33a4b72f"
 workers_dev = true
-compatibility_date = "2024-09-26"
+
 main = "./src/index.ts"
-node_compat = true
