@@ -1,8 +1,8 @@
-name = "spino-cup"
+name = "your-worker-name"
 type = "javascript" # または "typescript"
 account_id = "your_account_id"
 workers_dev = true
 
 [build]
-upload.format = "service-worker" # または "modules"、使うワーカースタイルに応じて変更
-upload.dir = "./backend" 
+upload.format = "service-worker"
+upload.dir = "./backend"
