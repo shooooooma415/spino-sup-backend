@@ -1,6 +1,6 @@
-name = "your-worker-name"
-type = "javascript" # または "typescript"
-account_id = "your_account_id"
+name = "shoma"
+type = "typescript"
+account_id = "shooooooma415"
 workers_dev = true
 
 [build]
