@@ -1,0 +1,22 @@
+{
+  "compilerOptions": {
+    "target": "ESNext",
+    "module": "ESNext",
+    "moduleResolution": "Bundler",
+    "strict": true,
+    "skipLibCheck": true,
+    "types": [
+        "node",
+        "@cloudflare/workers-types/2023-07-01"
+    ],
+    "jsx": "react-jsx",
+    "jsxImportSource": "hono/jsx" // 最後のコンマを削除
+  },
+  "include": [
+    "src/**/*" // ソースファイルを指定
+  ],
+  "exclude": [
+    "node_modules", // 除外するディレクトリを指定
+    "**/*.spec.ts" // テストファイルを除外する場合
+  ]
+}
